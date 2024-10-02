@@ -1,0 +1,112 @@
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: sans-serif;
+    background: whitesmoke;
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh;
+}
+
+.container {
+    margin: auto;
+    max-width: 75%;
+    flex: 1; 
+    margin-top: 5%;
+}
+
+.left, .right {
+    width: 50%;
+    padding: 30px;
+}
+
+.flex {
+    display: flex; 
+    justify-content: flex-start;
+}
+
+.slide {
+    width: 100%; 
+}
+
+.main-image {
+    width: auto; 
+    height: auto; 
+}
+
+.option-images img {
+    width: 75px; 
+    height: 75px;
+    padding: 10px; 
+}
+
+.right {
+    padding: 50px 100px 50px 50px; 
+}
+
+
+.flex1 {
+    display: flex; 
+}
+
+label, .addItem span, .colors span {
+    border-radius: 50%; 
+    width: 25px;
+    height: 25px;
+    margin: 20px 10px 20px 0; 
+    background: #000; 
+}
+
+.colors span:nth-child(1) {
+    background: blue; 
+}
+
+.colors span:nth-child(2) {
+    background: green; 
+}
+
+.colors span:nth-child(3) {
+    background: red; 
+}
+
+.colors span:nth-child(4) {
+    background: purple;
+}
+
+.colors span:nth-child(5) {
+    background: yellow; 
+}
+
+.colors span:nth-child(6) {
+    background: rosybrown; 
+}
+
+.addItem label, .addItem span {
+    background: none; 
+    border: 1px solid gray; 
+    text-align: center; 
+    color: black; 
+    line-height: 25px; 
+}
+
+.addItem label {
+    padding: 10px 30px 0 20px; 
+    border-radius: 50px; 
+    line-height: 0; 
+}
+
+button {
+    width: 100%; 
+    text-align: center; 
+    outline: none; 
+    border: none; 
+    background-color: blanchedalmond; 
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

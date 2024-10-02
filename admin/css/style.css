@@ -1,0 +1,90 @@
+/* Background gradient for the form section */
+.gradient-custom {
+    background: linear-gradient(135deg, rgba(98, 176, 255, 0.6), rgba(144, 224, 239, 0.6));
+}
+
+/* Styling the container */
+.container {
+    max-width: 900px;
+}
+
+/* Custom card styles */
+.card {
+    background: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #acd1f2;
+    padding: 20px;
+}
+h2 {
+    color: #333;
+}
+.form-container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group select, .form-group textarea {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+.form-group button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #218838;
+}
+.card-header py-3{
+    position: relative;
+}
+.createbtn{
+    position: absolute;
+    top: 23px;
+    right: 30px;
+    border-radius: 5px ;
+    
+}
+/* Show the toast */
+.toast.show {
+visibility: visible;
+animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@keyframes fadein {
+from {top: 0; opacity: 0;}
+to {top: 90px; opacity: 1;}
+}
+
+@keyframes fadeout {
+from {top: 90px; opacity: 1;}
+to {top: 0; opacity: 0;}
+}
+  
+

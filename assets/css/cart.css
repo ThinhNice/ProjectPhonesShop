@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: whitesmoke;
+}
+
+.container {
+    margin-top: 40px;
+    background: rgba(120, 57, 57, 0.299);
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.shopping-cart {
+    padding-right: 100px;
+}
+
+.number-items {
+    padding-left: 20px;
+}
+
+.items {
+    margin-top: 30px;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+.items > .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid aqua;
+    padding: 20px 0;
+}
+
+.items > .item:last-child {
+    border-bottom: 1px solid aqua;
+}
+
+.product-image {
+    flex: 0 0 100px; /* Điều chỉnh độ rộng của cột hình ảnh */
+}
+
+.product-info {
+    flex: 1; /* Điều chỉnh để cột thông tin sản phẩm chiếm diện tích còn lại */
+}
+
+.add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px; /* Điều chỉnh độ rộng để các nút cộng/trừ được canh đều */
+}
+
+.product-price {
+    flex: 0 0 100px; /* Đặt độ rộng cố định cho cột giá */
+    text-align: right; /* Căn phải nội dung */
+}
+
+.ignore-product {
+    flex: 0 0 150px; /* Đặt độ rộng cố định cho nút xóa sản phẩm */
+    text-align: center;
+}
+
+img {
+    height: 75px;
+    width: 75px;
+    border-radius: 5px;
+}
+
+.add span, .add label {
+    margin: 0 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add label {
+    padding: 0 20px;
+    border-radius: 50px;
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-cart {
+    text-decoration: none;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-groups {
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.button-groups .back, .button-groups .submit {
+    margin-right: 20px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
